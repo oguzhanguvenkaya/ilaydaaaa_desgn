@@ -12,6 +12,7 @@ Higgsfield'ın Ekim 2026 itibarıyla menüde görünen bütün özelliklerinin e
   - [A: Content Factory, Playable, Genjutsu, Katana, AI Influencer, ChatGPT eklentisi, MCP, API, Supercomputer](research/2026-10-26/A-ajan-otomasyon.md)
   - [B: Cinema Studio, Ads Studio, Ad Multiplier, Effects, Marketing Studio, Click to Ad, Shorts/Faceless Studio, Explainer, Create Video](research/2026-10-26/B-studyolar-reklam.md)
   - [C: After Effects, Premiere Pro, Photoshop, DaVinci Resolve, Figma, Blender eklentileri ve Canvas](research/2026-10-26/C-eklentiler-canvas.md)
+  - [D: Image menüsü özellikleri ve görsel modeller](research/2026-10-26/D-gorsel.md)
   - [F: Canlı Higgsfield MCP kataloğu (hazır tarifler, iş akışları, eklenti kurulum komutları)](research/2026-10-26/F-canli-mcp-katalog.md)
 
 ## İlgili repo
