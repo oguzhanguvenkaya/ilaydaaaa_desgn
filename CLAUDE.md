@@ -5,6 +5,7 @@ Bu repo Higgsfield'ın güncel özelliklerinin envanterini, kullanım rehberini 
 ## İş planlama
 - Kullanıcı Higgsfield ile ne yapmak istediğini anlattığında `.claude/skills/higgsfield-planla` skill'ini kullan: hedefi anla → araç seç → canlı doğrula (MCP/CLI/resmî web) → plan şablonuyla yaz → adım adım yönlendir.
 - Kullanıcı `/higgsfield-planla <isteği>` yazarak da başlatabilir.
+- Firma kurumsal ve profesyonel içerik üretir; trendler kontrollü kullanılır. Her plan `docs/kurumsal-icerik-rehberi.md` çerçevesine uyar.
 
 ## İletişim
 - Türkçe, sade dille yaz. Teknik terimi ilk kullanışta somut örnekle açıkla.

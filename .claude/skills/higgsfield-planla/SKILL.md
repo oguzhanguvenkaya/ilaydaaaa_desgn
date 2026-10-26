@@ -29,6 +29,7 @@ Kontrol listesi:
 |---|---|---|
 | Ne üretilecek (tek görsel, carousel, Reels, reklam seti, video düzenleme, 3D, ses…) | Araç ailesini belirler | — (sorulur) |
 | Ürün / SKU ve marka | Etiket kuralları, referans seçimi | Ürünsüz içerik |
+| Hedef kitle (son kullanıcı / profesyonel usta / bayi) | Ton, içerik türü, B2B mi B2C mi | Ürün ailesinden çıkar ([kurumsal rehber](../../../docs/kurumsal-icerik-rehberi.md) 4. bölüm) |
 | Elde gerçek materyal var mı (ürün fotoğrafı, çekim videosu, logo dosyası) | En güvenli yol gerçek materyalden başlamaktır | Yok kabul etme, sor |
 | Kanal ve format (Instagram feed 4:5, Reels 9:16, Meta reklam 1:1/4:5/9:16, web banner…) | Oran, süre, çözünürlük | Kanaldan çıkar |
 | Süre / adet | Kredi | Reels 8–15 sn; görselde 3 varyant |
@@ -40,6 +41,7 @@ Kontrol listesi:
 
 Şunları oku:
 
+0. `docs/kurumsal-icerik-rehberi.md`: firmanın profesyonel çizgisi (2. bölüm), marka kuralları ve Higgsfield karşılığı (3. bölüm), **ürünün ailesine göre tarif ve riskler** (4. bölüm), içerik türü (5. bölüm), trend çerçevesi (6. bölüm). Plan bu çerçeveye uymalı; uymayan bir istek varsa nedenini söyleyip alternatif öner.
 1. [references/arac-secim-haritasi.md](references/arac-secim-haritasi.md): hedef → araç zinciri; her aracın canlı kontrol komutu.
 2. `docs/ozellik-rehberi.md`: 2. bölümdeki "ürün piksellerine dokunma" seviyeleri ve 3. bölümdeki içerik türüne göre akışlar.
 3. Gerekirse `docs/ozellik-envanteri.md`, `bilgi/canli-katalog-*/README.md` ve ilgili `research/<tarih>/` dosyası.

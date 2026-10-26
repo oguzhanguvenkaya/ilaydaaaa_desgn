@@ -5,9 +5,10 @@ Higgsfield'ın Ekim 2026 itibarıyla menüde görünen bütün özelliklerinin e
 ## Nereden başlamalı?
 
 0. **Planlayıcı (yeni):** Bu repoyu açtığın Claude Code oturumunda yapmak istediğin işi anlat ya da `/higgsfield-planla <isteğin>` yaz. Claude hangi Higgsfield araçlarının hangi sırayla, nerede ve hangi ayarlarla kullanılacağını, kredi tahmini ve etiket riskiyle planlar ve seni adım adım yönlendirir. Bilgiyi canlı Higgsfield MCP/CLI kataloğundan ve resmî belgelerden günceller; plan aşamasında kredi harcamaz. Ayrıntı: [skill](.claude/skills/higgsfield-planla/SKILL.md), [örnek plan](.claude/skills/higgsfield-planla/references/ornek-plan.md).
-1. [Özellik rehberi](docs/ozellik-rehberi.md): kısa sonuç, ürün etiketi güvenliğine göre araç sıralaması, içerik türüne göre iş akışları, test planı, açık sorular.
-2. [Özellik envanteri](docs/ozellik-envanteri.md): menüdeki her özellik ve model için tek satır; eski rehberde var mı, etiket riski, öncelik, detay linki.
-3. [Başka bilgisayarda açma / yerel kurulum](docs/yerel-kurulum.md)
+1. [Kurumsal içerik rehberi](docs/kurumsal-icerik-rehberi.md): markalarımız (14 marka, 639 SKU) ve ürün ailelerimiz için profesyonel çizgi, marka kurallarının Higgsfield karşılığı, aileye göre içerik tarifleri, trend çerçevesi.
+2. [Özellik rehberi](docs/ozellik-rehberi.md): kısa sonuç, ürün etiketi güvenliğine göre araç sıralaması, içerik türüne göre iş akışları, test planı, açık sorular.
+3. [Özellik envanteri](docs/ozellik-envanteri.md): menüdeki her özellik ve model için tek satır; eski rehberde var mı, etiket riski, öncelik, detay linki.
+4. [Başka bilgisayarda açma / yerel kurulum](docs/yerel-kurulum.md)
 
 Hiçbir öneri bizim ürünlerimizle test edilmedi. Kaynakta bulunamayan veya kaynakların çeliştiği yerler `[doğrulanacak]` diye işaretli. Araştırma sırasında ücretli üretim yapılmadı.
 
