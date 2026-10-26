@@ -2,6 +2,10 @@
 
 Bu repo Higgsfield'ın güncel özelliklerinin envanterini, kullanım rehberini ve bizim iş akışımıza entegrasyon planını tutar. Ürün kataloğu, marka kütüphanesi ve üretim kayıt düzeni ayrı repodadır: `oguzhanguvenkaya/higgsfield_test` (kuralları onun `AGENTS.md` dosyasında). Üretim yapılacaksa o repo da açılmalı ve kuralları uygulanmalı.
 
+## İş planlama
+- Kullanıcı Higgsfield ile ne yapmak istediğini anlattığında `.claude/skills/higgsfield-planla` skill'ini kullan: hedefi anla → araç seç → canlı doğrula (MCP/CLI/resmî web) → plan şablonuyla yaz → adım adım yönlendir.
+- Kullanıcı `/higgsfield-planla <isteği>` yazarak da başlatabilir.
+
 ## İletişim
 - Türkçe, sade dille yaz. Teknik terimi ilk kullanışta somut örnekle açıkla.
 - Kaynakta olmayan sayı veya iddia uydurma; emin değilsen `[doğrulanacak]` yaz.

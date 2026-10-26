@@ -44,7 +44,7 @@ Kısaltmalar: A = [A-ajan-otomasyon](../research/2026-10-26/A-ajan-otomasyon.md)
 | Photodump | Soul ID karakterinden 15 karelik sosyal set | ✗ | — | D | D |
 | **Relight** (görsel) | Işık yönü, sertlik, parlaklık, renk; ürün fotoğrafçılığı kullanım alanı olarak sayılıyor | ◐ | Orta (yeniden render; test) | Y | D |
 | **Inpaint** | Maskelenen bölgeyi değiştirir, dışını korur (Nano Banana Pro Inpaint) | ◐ | Düşük (etiketi maskelemezsen) | Y | D |
-| **Image Upscale** | ByteDance (2K/4K) veya Topaz. Etiket için yalnızca Standard modlar | ◐ | Standard: düşük · generative: yüksek | Y | D |
+| **Image Upscale** | ByteDance (2K/4K) veya Topaz. Etiket için yalnızca Standard modlar; canlı katalogda Topaz **Text Refine** seçeneği var | ◐ | Standard: düşük · generative: yüksek | Y | D |
 | Face Swap | Yüz değiştirme; günde 5 ücretsiz (free plan) | ✗ | — | D (KVKK riski) | D |
 | Character Swap | Karakter kimliğini başka sahneye aktarır | ✗ | — | D | D |
 
@@ -56,11 +56,11 @@ Kısaltmalar: A = [A-ajan-otomasyon](../research/2026-10-26/A-ajan-otomasyon.md)
 | Soul Cinema | Sinematik film karesi; video başlangıç karesi | Yok | D |
 | GPT Image 2.5 Sunburst / Flare | Hassas düzenleme / hızlı varyasyon; 16 referans; 1,5–26,5 kredi | "text rendering better than most" | D |
 | Nano Banana 2.1 | Bir referanstan 40 görsel tutarlılığı | "label text" tutarlılığı | D |
-| Seedream 5.0 Pro | Maskesiz nokta düzenleme, infografik | "fix a label", 10–14 dil (Türkçe açık değil) | D |
+| Seedream 5.0 Pro | Maskesiz nokta düzenleme, infografik | "fix a label", 10–14 dil (Türkçe açık değil). Canlı katalog: **en fazla 2K** | D |
 | **Nano Banana Pro** | Adet, metin, perspektifte en yüksek hassasiyet; HEX renk; 2K 2 / 4K 4 kredi | **En güçlü iddia** ("packaging text… perfect spelling") | D |
 | FLUX 3 Image / FLUX.2 | Prompt sadakati; FLUX.2'de JSON prompt ve HEX | Çok dilli metin | D |
 | Recraft V4.1 | Tasarım, vektör çıktı | Zayıf | D |
-| Grok Imagine 2.0 | Webde görsel modeli olarak resmî sayfa bulunamadı; 16 Eyl CLI kataloğunda "Grok Image 2.0" var | [doğrulanacak] | D |
+| Grok Imagine 2.0 | Canlı MCP kataloğunda `grok_image_2_0` olarak var (1k/2k; 26 Eki). Webde ayrı tanıtım sayfası bulunamadı | Kaynakta iddia yok | D, [katalog](../bilgi/canli-katalog-2026-10-26/README.md) |
 | Z-Image | 1–3 sn hızlı taslak | Kendi blogu tipografide NB Pro'yu üstün sayıyor | D |
 | Topaz | Upscaler | Standard modda kaynağa yakın | D |
 
@@ -90,7 +90,7 @@ Kısaltmalar: A = [A-ajan-otomasyon](../research/2026-10-26/A-ajan-otomasyon.md)
 | Model | Kaynağın öne çıkardığı | Süre / çözünürlük / ses | Kredi örneği | Detay |
 |---|---|---|---|---|
 | Seedance 2.5 | ≤50 referans, bölgesel edit, Cinema Studio altyapısı | ≤30 sn · 480p–1080p · ses var | 8 sn: 24 (480p) / 128 (1080p) | E |
-| Kling 4.0 | Hızlı hareket, ≤10 keyframe, ekranda metin ve **logo** | 3–30 sn · 720p/1080p (4K iddiası çelişkili) · stereo | 5 sn 720p 25 · 30 sn 1080p 225 | E |
+| Kling 4.0 | Hızlı hareket, ≤10 keyframe, ekranda metin ve **logo** | 3–30 sn · 720p/1080p (canlı katalog; tanıtım sayfasındaki 4K katalogda yok) · stereo | 5 sn 720p 25 · 30 sn 1080p 225 | E |
 | Kling Motion Control | Referans videodaki hareketi karakter görseline aktarma | ≤30 sn · 720p/1080p | [doğrulanacak] | E |
 | Kling 3.0 Omni Edit | Videoyu ≤4 görselle düzenleme | [doğrulanacak] | [doğrulanacak] | E |
 | Gemini Omni Flash 1.1 | Sohbetle çok turlu edit, 10'ar sn uzatma, SynthID/C2PA damgası | 8–10 sn (uzatmayla ≤60) · 720p · ses | ~$0,15/sn | E |
@@ -117,6 +117,8 @@ Her eklentinin iki biçimi var: **(A)** uygulamanın içinde senin tıkladığı
 | **Blender** | Scene Builder, 3D Model (fotoğraftan mesh, Meshy 5), Character Animation, Image, Video, Camera, Asset | 5.1+ | .blend sahne | Düşük: **gerçek etiketi UV doku olarak kendin kaplarsan** | O | C, F |
 
 ## 7. Kapsam notu
+
+- **Canlı katalog (26 Ekim):** Modellerin güncel parametreleri için [canlı katalog özeti](../bilgi/canli-katalog-2026-10-26/README.md). Çelişkide katalog esas alınır.
 
 - **Ayrıntılı araştırılmayanlar:** Audio menüsü (yalnızca Lipsync içinden dolaylı bilgi var), Academy, Explore, Assets, Enterprise. Nedeni: kullanıcının listesinde değillerdi; Academy, Explore ve Assets üretim aracı değil. Audio bir sonraki turda araştırılmalı (Türkçe seslendirme bizim için önemli).
 - **Fiyatlar** blog yazılarındaki tarihli örneklerdir; kesin fiyat her üretimde Generate düğmesinde görünür. Birçok yerde kaynaklar çelişiyor; ilgili dosyada işaretli.
