@@ -71,7 +71,7 @@ Her eklentinin **iki ayrı biçimi** var; ikisini karıştırma:
 | Nerede çalışır | Photoshop/Premiere/AE/DaVinci/Blender/Figma içinde panel | Claude Code ↔ yerel MCP sunucusu ↔ uygulama |
 | Bulut oturumundan kurulur mu? | Hayır | Hayır (yalnızca yerel) |
 
-Ayrıntılar ve sürüm gereksinimleri: [eklentiler rehberi](ozellik-rehberi.md#eklentiler).
+Ayrıntılar ve sürüm gereksinimleri: [özellik envanteri, 6. bölüm](ozellik-envanteri.md#6-eklentiler-plugins).
 
 B) kurulum komutları (Higgsfield MCP talimatlarından):
 

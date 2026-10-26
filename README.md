@@ -2,7 +2,13 @@
 
 Higgsfield'ın Ekim 2026 itibarıyla menüde görünen bütün özelliklerinin envanteri, kullanım rehberi ve oto bakım ürünleri distribütörü olarak iş akışımıza nasıl gireceği.
 
-> Durum: araştırma devam ediyor. Görsel ve video özellikleri raporu eklenince ana rehber (`docs/ozellik-rehberi.md`) ve envanter tablosu (`docs/ozellik-envanteri.md`) yazılacak.
+## Nereden başlamalı?
+
+1. [Özellik rehberi](docs/ozellik-rehberi.md): kısa sonuç, ürün etiketi güvenliğine göre araç sıralaması, içerik türüne göre iş akışları, test planı, açık sorular.
+2. [Özellik envanteri](docs/ozellik-envanteri.md): menüdeki her özellik ve model için tek satır; eski rehberde var mı, etiket riski, öncelik, detay linki.
+3. [Başka bilgisayarda açma / yerel kurulum](docs/yerel-kurulum.md)
+
+Hiçbir öneri bizim ürünlerimizle test edilmedi. Kaynakta bulunamayan veya kaynakların çeliştiği yerler `[doğrulanacak]` diye işaretli. Araştırma sırasında ücretli üretim yapılmadı.
 
 ## İçerik
 
@@ -13,6 +19,7 @@ Higgsfield'ın Ekim 2026 itibarıyla menüde görünen bütün özelliklerinin e
   - [B: Cinema Studio, Ads Studio, Ad Multiplier, Effects, Marketing Studio, Click to Ad, Shorts/Faceless Studio, Explainer, Create Video](research/2026-10-26/B-studyolar-reklam.md)
   - [C: After Effects, Premiere Pro, Photoshop, DaVinci Resolve, Figma, Blender eklentileri ve Canvas](research/2026-10-26/C-eklentiler-canvas.md)
   - [D: Image menüsü özellikleri ve görsel modeller](research/2026-10-26/D-gorsel.md)
+  - [E: Video menüsü özellikleri ve video modelleri](research/2026-10-26/E-video.md)
   - [F: Canlı Higgsfield MCP kataloğu (hazır tarifler, iş akışları, eklenti kurulum komutları)](research/2026-10-26/F-canli-mcp-katalog.md)
 
 ## İlgili repo
